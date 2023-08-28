@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #297eaf;
+    overflow: hidden;   
+    padding-top: 5px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-right: 40px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav img{
+    width: 300px;
+    
+}
+
+.container{
+    background: url(Assets/Home/lms2.jpeg);
+    padding: 250PX;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.container .item1{
+    margin: 30px;
+    background-color: #297eaf;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+    
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  .container .item1 H1{
+    font-size: 50px;
+    
+  }
+  .container .item1 p{
+    margin-top: 20px;
+    font-size: 18px;
+  }
+.container .item1 button {
+    margin-top: 20px;
+    text-decoration: none;
+    border: none;
+    padding: 8px 30px 8px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #297eaf;
+}
+
+.container .item1 button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.container1{
+    padding-top: 70px;
+    
+    
+    
+}
+.container1 .item2{
+    text-align: center;
+    
+
+}
+.container1 .item2 h2{
+    font-size: 50px;
+}
+/* Courses section*/
+.a1{
+    text-decoration: none;
+    
+}
+.man{
+    margin: 50px;
+    padding: 50px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+/*box*/
+.man .courses{
+    background-color: white;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 15px;
+            width: 250px;
+            height: 200px;
+            box-shadow: 5px 5px 5px 5px #888888;
+            color: black;
+            text-align: left;
+            
+}
+.man .courses:hover{
+    background: url(Assets/Home/wordpress.png);
+    background-size: cover;
+    color: white ;
+    background-repeat: no-repeat; 
+    
+}
+
+.man .courses .h2a{
+    padding-top: 30px;
+    font-size: 35px; 
+}   
+.man .courses .p1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+       
+}
+/*box1*/
+.man .courses1{
+    background-color: white;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 15px;
+            width: 250px;
+            height: 200px;
+            box-shadow: 5px 5px 5px 5px #888888;
+            color: black;
+            text-align: left;
+            
+}
+.man .courses1:hover{
+    background: url(Assets/Home/seo.jpg);
+    background-size: cover;
+    color: white ;
+    background-repeat: no-repeat; 
+    
+}
+
+.man .courses1 .h2a{
+    padding-top: 30px;
+    font-size: 35px; 
+}   
+.man .courses1 .p1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+       
+}
+/*box2*/
+.man .courses2{
+    background-color: white;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 15px;
+            width: 250px;
+            height: 200px;
+            box-shadow: 5px 5px 5px 5px #888888;
+            color: black;
+            text-align: left;
+            
+}
+.man .courses2:hover{
+    background: url(Assets/Home/datas1.jpeg);
+    background-size: cover;
+    color: white ;
+    background-repeat: no-repeat; 
+    
+}
+
+.man .courses2 .h2a{
+    padding-top: 30px;
+    font-size: 35px; 
+}   
+.man .courses2 .p1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+       
+}
+/*box3*/
+.man .courses3{
+    background-color: white;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 15px;
+            width: 250px;
+            height: 200px;
+            box-shadow: 5px 5px 5px 5px #888888;
+            color: black;
+            text-align: left;
+            
+}
+.man .courses3:hover{
+    background: url(Assets/Home/python.jpeg);
+    background-size: cover;
+    color: white ;
+    background-repeat: no-repeat; 
+    
+}
+
+.man .courses3 .h2a{
+    padding-top: 30px;
+    font-size: 35px; 
+}   
+.man .courses3 .p1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+       
+}
+/*section1*/
+.sec{
+    display: flex;
+    padding: 100px;
+    background-color: #f9f9f9;  
+}
+.box{
+    padding-right: 40px;
+}
+.sec .box .h2b{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.sec .box .p2{
+    font-size: 18px;
+    line-height: 30px;
+}
+.imag{
+    width: 650px;
+     height: 400px;
+     border-radius: 10px;
+}
+
+
+
+.submit{
+    background-color: #297eaf;
+    padding: 10px 25px 10px 25px;
+    border:  1px solid #297eaf;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+
+}
+.submit:hover {
+    background-color: transparent        ;
+    border-color: #297eaf;
+    color: #297eaf;
+}
+/*section2*/
+
+.sec2{
+    height: 70vh;
+    background-image: url(Assets/Home/opacity.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+  }
+  
+  .sec2::before{
+      content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   /* background-color: rgba(0, 0, 0, 0.6);*/
+   background-color: rgba(41, 126, 175, 0.6);
+    
+  }
+  
+  .sec2 h2{
+    font-size: 40px;
+    color: #ffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    text-align: center;
+  }
+
+  .submit1{
+    background: transparent;
+    padding: 10px 40px 10px 40px;
+    border:  1px solid white;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+
+}
+.submit1:hover {
+    background-color: #297eaf;
+    border-color: #297eaf;
+    color: white;
+}
+  
+
+/*Section3*/  
+
+.a2{
+    text-decoration: none;
+    
+}
+
+.sec3{
+    display: flex;
+}
+.inst{
+    text-align: center;
+    padding-top: 50px;
+}
+.inst h2{
+    font-size: 35px;
+}
+.inst p{
+    padding-top: 20px;
+}
+
+ .instructor{
+    
+            background-color: white;
+            margin: 20px;
+            padding: 50px;
+            
+            width: 300px;
+            height: 350px;
+            
+            color: black;
+            text-align: center;          
+}
+/* .instructor:hover{
+   /* background: url(wordpress.png);
+    background-size: cover;
+    color: white ;
+    background-repeat: no-repeat; 
+    
+}*/
+
+ .instructor .h2b{
+    padding-top: 30px;
+    font-size: 25px; 
+    
+}   
+ .instructor .p2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;       
+}
+
+.instructor .imag1{
+    width: 150px;
+    height: 150px;
+    border-radius:50% ;
+    
+}
+
+ .instructor .star{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    margin-left: 30%;
+    margin-top: 5%;
+    transform: translate(-20%, -20%);
+  }
+  .instructor .star #icon{
+    font-size: 23px;
+  }
+  .checked{
+    color: #297eaf;
+  }
+/*Section-4*/
+.testimonials{
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+/*testimonials*/
+.testimain{
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+}
+ .testi1{
+    background-color: white;
+            margin: 20px;
+            padding: 50px;
+            border-radius: 15px;
+            width: 350px;
+            height: 150px;
+            box-shadow: 5px 5px 5px 5px #888888;
+            color: black;
+            text-align: center;
+            
+}
+
+.testi .p1a{
+    
+    padding-bottom: 20px;
+    font-size: 18px; 
+}   
+.testi .p1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-weight: 800;
+       
+
+}
+.testi .star #icon{
+    font-size: 23px;
+}
+/*TESTIMONIALS1*/
+.testimain1{
+    display: flex;
+    
+    justify-content: center;
+}
+ .testi12{
+    background-color: white;
+            margin: 20px;
+            padding: 50px;
+            border-radius: 15px;
+            width: 350px;
+            height: 150px;
+            box-shadow: 5px 5px 5px 5px #888888;
+            color: black;
+            text-align: center;
+            
+}
+
+.testi1 .p1a{
+    
+    padding-bottom: 20px;
+    font-size: 18px; 
+}   
+.testi1 .p1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-weight: 800;
+       
+
+}
+.testi1 .star #icon{
+    font-size: 23px;
+}
+/*Footer*/
+.footer{
+    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+    color: white;
+}
+.footer .fott1{
+    text-align: center;
+}
+.footer .fott1 img{
+    width: 250px;
+}
+
+.footer .fott1 h2{
+    padding-bottom: 20px;
+    font-size: 40px;
+    
+}
+.footer .fott1 p{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.footer .fott1 .soci i{
+    font-size: 25px;
+}
+.footer .fott1 .soci i:hover{
+    color: #297eaf;
+
+}
+/*line*/
+.lin{
+    padding-bottom: 50px;
+    background-color: black;
+}
+

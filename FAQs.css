@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #297eaf;
+    overflow: hidden;   
+    padding-top: 5px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-right: 40px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav img{
+    width: 300px;
+}
+
+/*Main*/
+
+.container{
+    background: url(Assets/FAQs/Faqs.jpeg);
+    padding: 250PX;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.container .item1{
+    
+    background-color: rgb(41, 126, 175);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    width: 400px;
+    margin: auto;    
+    
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  .container .item1 H1{
+    font-size: 50px;
+    
+  }
+  .container .item1 p{
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  /*Section1*/
+  .sec{
+    padding: 100px;
+    padding-left: 200px;
+  }
+  .sec1{
+    padding: 20px;
+  }
+.sec1 h3{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.sec1 p{
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+/*Footer*/
+.footer{
+    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+    color: white;
+}
+.footer .fott1{
+    text-align: center;
+}
+
+.footer .fott1 h2{
+    padding-bottom: 20px;
+    font-size: 40px;
+    
+}
+.footer .fott1 p{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.footer .fott1 .soci i{
+    font-size: 25px;
+}
+.footer .fott1 .soci i:hover{
+    color: #297eaf;
+
+}
+/*line*/
+.lin{
+    padding-bottom: 50px;
+    background-color: black;
+}
